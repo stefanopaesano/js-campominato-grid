@@ -11,5 +11,18 @@ function generateGrid() {
         cell.className = 'grid-cell';
         cell.textContent = i;
         gameGrid.appendChild(cell);
+
+        // Aggiungi un gestore di eventi 'click' a ciascuna cella
+        cell.addEventListener('click', function() {
+            // Cambia il colore della cella cliccata in azzurro
+            cell.style.backgroundColor = 'blue';
+
+            // Emetti un messaggio in console con il numero della cella cliccata
+            console.log('Hai cliccato sulla cella numero:', i);
+        });
+
+        gameGrid.append(cell);
+    
     }
+   
 }

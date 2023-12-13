@@ -1,6 +1,6 @@
 #game-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr); /* 10 colonne */
+    grid-template-columns: repeat(10, 1fr); /* 10 colonne framework */
     gap: 5px;
 }
 
