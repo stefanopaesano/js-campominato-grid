@@ -26,3 +26,42 @@ function generateGrid() {
     }
    
 }
+
+
+
+// const userInput = prompt("inserisci il tuo numero");
+
+// // Chiamare la funzione letterToNumber passando l'input utente come argomento
+// numberToletter(userInput);
+
+// function numberToletter(number) {
+//     // Assicurati che la lettera sia minuscola
+   
+//         // Verifica se la lettera è 'a'
+//     if (number == '1') {
+//         console.log("a");
+//     }else if (number == '2'){
+//         // Se la lettera non è 'a', restituisci undefined o un valore di default
+//         console.log("b");
+//     }
+//     else{
+//         const outputElement = document.getElementById("output");
+//         // Modifica il contenuto dell'elemento
+//         outputElement.innerHTML.classlist()= "sei veramente un pipo";
+
+        
+//     }
+    
+    
+    
+
+    
+// }
+
+
+
+// // Esempio di utilizzo
+// const letter = 'a';
+// const number = letterToNumber(letter);
+
+// console.log(`La lettera ${letter} è associata al numero ${number}`);
